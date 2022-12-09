@@ -26,4 +26,4 @@ reply DeviceAddress {
 }
 ```
 
-Returns the IP hostname/address of the hardware associated with a driver instance. Some ACNET devices control Ethernet-based hardware and it's useful to be able to determine this association programmatically. This request specifies the SSDN of a device on the front-end. If the underlying driver talks to Ethernet equipment, the reply will contain the hostname or IP address of it.
+Returns the IP hostname/address of the hardware associated with a driver instance. Some ACNET devices control Ethernet-based hardware and it's useful to be able to determine this association programmatically. The request specifies the SSDN of a device on the front-end. If the underlying driver talks to Ethernet equipment, the reply will contain the hostname or IP address of it.
