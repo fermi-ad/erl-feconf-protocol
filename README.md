@@ -6,6 +6,10 @@ ACSys/FE programmers don't need to directly use this library; the ACSys/FE frame
 
 To add more messages, you need to edit the `FECONFv1.proto` file in the console repo (`uls/ul_feconf_protocol`.) The `Makefile` in this repo pulls the latest version, via a CVS link, when building (i.e. the `.proto` file is not managed by this project.)
 
+## Build Dependencies
+
+To build this project, your system needs access to the CVSWeb service (so, only onsite machines), you need the protocol compiler and Erlang OTP 21 installed locally.
+
 ## API
 
 The following messages are supported. Contact the Front-end Group if you would like other information to be queriable.
